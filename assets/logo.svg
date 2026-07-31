@@ -1,36 +1,34 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
-  <!-- KG brand logo: pink lotus over gold scrollwork with K.G wordmark -->
-  <g fill="#E0186C" stroke="#ffffff" stroke-width="5" stroke-linejoin="round">
+  <!-- K.G brand logo: pink lotus over gold scrollwork with K.G wordmark -->
+  <g fill="#E0186C" stroke="#ffffff" stroke-width="4" stroke-linejoin="round">
     <!-- outer left petal -->
-    <path d="M196 130 C 156 130 122 114 108 82 C 106 77 110 73 115 74 C 152 80 184 102 196 130 Z"/>
+    <path d="M195 138 C 158 140 124 126 108 96 C 105 90 109 85 115 86 C 152 92 184 112 195 138 Z"/>
     <!-- outer right petal -->
-    <path d="M204 130 C 244 130 278 114 292 82 C 294 77 290 73 285 74 C 248 80 216 102 204 130 Z"/>
+    <path d="M205 138 C 242 140 276 126 292 96 C 295 90 291 85 285 86 C 248 92 216 112 205 138 Z"/>
     <!-- inner left petal -->
-    <path d="M197 129 C 166 120 146 94 142 60 C 142 55 147 52 151 55 C 178 74 194 100 197 129 Z"/>
+    <path d="M196 136 C 168 126 148 100 145 66 C 145 60 151 57 155 61 C 180 82 194 108 196 136 Z"/>
     <!-- inner right petal -->
-    <path d="M203 129 C 234 120 254 94 258 60 C 258 55 253 52 249 55 C 222 74 206 100 203 129 Z"/>
+    <path d="M204 136 C 232 126 252 100 255 66 C 255 60 249 57 245 61 C 220 82 206 108 204 136 Z"/>
     <!-- center petal -->
-    <path d="M200 32 C 176 64 170 100 200 131 C 230 100 224 64 200 32 Z"/>
+    <path d="M200 38 C 177 70 171 106 200 138 C 229 106 223 70 200 38 Z"/>
   </g>
 
   <!-- gold flourish -->
-  <g fill="none" stroke="#D2A63F" stroke-width="8" stroke-linecap="round">
-    <!-- lines flanking under the lotus -->
-    <path d="M120 148 L 182 148"/>
-    <path d="M218 148 L 280 148"/>
-    <!-- left main curve rising to center -->
-    <path d="M196 208 C 196 178 178 160 152 162 C 128 164 116 180 118 196 A 20 20 0 1 0 154 188 A 12 12 0 1 1 132 194"/>
-    <!-- right main curve rising to center -->
-    <path d="M204 208 C 204 178 222 160 248 162 C 272 164 284 180 282 196 A 20 20 0 1 1 246 188 A 12 12 0 1 0 268 194"/>
-    <!-- small outer left spiral -->
-    <path d="M112 186 C 96 174 76 178 70 192 A 14 14 0 1 0 94 200 A 8 8 0 1 1 80 196"/>
-    <!-- small outer right spiral -->
-    <path d="M288 186 C 304 174 324 178 330 192 A 14 14 0 1 1 306 200 A 8 8 0 1 0 320 196"/>
+  <g fill="none" stroke="#D2A63F" stroke-width="6" stroke-linecap="round">
+    <!-- lines under the lotus, sweeping out from the base -->
+    <path d="M118 152 L 186 152"/>
+    <path d="M214 152 L 282 152"/>
+    <!-- left: rise to center dip, big spiral, then outer small spiral -->
+    <path d="M199 214 C 197 186 184 170 162 168 C 138 166 122 180 122 196 A 21 21 0 1 0 158 184 A 12 12 0 1 1 138 192"/>
+    <path d="M118 190 C 102 174 80 176 72 190 A 15 15 0 1 0 97 201 A 8.5 8.5 0 1 1 82 196"/>
+    <!-- right: mirrored -->
+    <path d="M201 214 C 203 186 216 170 238 168 C 262 166 278 180 278 196 A 21 21 0 1 1 242 184 A 12 12 0 1 0 262 192"/>
+    <path d="M282 190 C 298 174 320 176 328 190 A 15 15 0 1 1 303 201 A 8.5 8.5 0 1 0 318 196"/>
   </g>
 
   <!-- wordmark -->
-  <text x="200" y="330" text-anchor="middle"
-        font-family="Playfair Display, 'Times New Roman', Georgia, serif"
-        font-weight="700" font-size="118" letter-spacing="4"
+  <text x="200" y="334" text-anchor="middle"
+        font-family="'Times New Roman', 'Playfair Display', Georgia, serif"
+        font-weight="700" font-size="120" letter-spacing="2"
         fill="#E0186C">K.G</text>
 </svg>
