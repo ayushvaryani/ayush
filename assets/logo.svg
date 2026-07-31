@@ -1,16 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
-  <defs>
-    <linearGradient id="kgGold" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#e8cf8f"/>
-      <stop offset="55%" stop-color="#c9a24b"/>
-      <stop offset="100%" stop-color="#a37f2e"/>
-    </linearGradient>
-  </defs>
-  <rect x="10" y="10" width="100" height="100" rx="2" transform="rotate(45 60 60)"
-        fill="none" stroke="url(#kgGold)" stroke-width="2.5"/>
-  <rect x="18" y="18" width="84" height="84" rx="1" transform="rotate(45 60 60)"
-        fill="none" stroke="url(#kgGold)" stroke-width="0.8" opacity="0.6"/>
-  <text x="60" y="73" text-anchor="middle"
-        font-family="Marcellus, 'Times New Roman', serif" font-size="36"
-        letter-spacing="2" fill="url(#kgGold)">KG</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- KG brand logo: pink lotus over gold scrollwork with K.G wordmark -->
+  <g fill="#E0186C" stroke="#ffffff" stroke-width="5" stroke-linejoin="round">
+    <!-- outer left petal -->
+    <path d="M196 130 C 156 130 122 114 108 82 C 106 77 110 73 115 74 C 152 80 184 102 196 130 Z"/>
+    <!-- outer right petal -->
+    <path d="M204 130 C 244 130 278 114 292 82 C 294 77 290 73 285 74 C 248 80 216 102 204 130 Z"/>
+    <!-- inner left petal -->
+    <path d="M197 129 C 166 120 146 94 142 60 C 142 55 147 52 151 55 C 178 74 194 100 197 129 Z"/>
+    <!-- inner right petal -->
+    <path d="M203 129 C 234 120 254 94 258 60 C 258 55 253 52 249 55 C 222 74 206 100 203 129 Z"/>
+    <!-- center petal -->
+    <path d="M200 32 C 176 64 170 100 200 131 C 230 100 224 64 200 32 Z"/>
+  </g>
+
+  <!-- gold flourish -->
+  <g fill="none" stroke="#D2A63F" stroke-width="8" stroke-linecap="round">
+    <!-- lines flanking under the lotus -->
+    <path d="M120 148 L 182 148"/>
+    <path d="M218 148 L 280 148"/>
+    <!-- left main curve rising to center -->
+    <path d="M196 208 C 196 178 178 160 152 162 C 128 164 116 180 118 196 A 20 20 0 1 0 154 188 A 12 12 0 1 1 132 194"/>
+    <!-- right main curve rising to center -->
+    <path d="M204 208 C 204 178 222 160 248 162 C 272 164 284 180 282 196 A 20 20 0 1 1 246 188 A 12 12 0 1 0 268 194"/>
+    <!-- small outer left spiral -->
+    <path d="M112 186 C 96 174 76 178 70 192 A 14 14 0 1 0 94 200 A 8 8 0 1 1 80 196"/>
+    <!-- small outer right spiral -->
+    <path d="M288 186 C 304 174 324 178 330 192 A 14 14 0 1 1 306 200 A 8 8 0 1 0 320 196"/>
+  </g>
+
+  <!-- wordmark -->
+  <text x="200" y="330" text-anchor="middle"
+        font-family="Playfair Display, 'Times New Roman', Georgia, serif"
+        font-weight="700" font-size="118" letter-spacing="4"
+        fill="#E0186C">K.G</text>
 </svg>
