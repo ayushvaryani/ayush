@@ -19,12 +19,16 @@ e-commerce (strictly B2B/wholesale).
   exact filenames); until then cards show gold line-art placeholders
 - `CNAME` — custom-domain file for GitHub Pages
 
-## Before going live — fill these in
+## Contact details (already wired in)
 
-1. **WhatsApp number** — in `index.html`, replace `91XXXXXXXXXX` in the
-   `wa.me` link with your WhatsApp Business number.
-2. **Email** — replace `hello@k.g.traders.co.in` with your real address.
-3. **Photos & logo** — add files per `assets/products/README.md`.
+- WhatsApp: +91 70163 64717 (`wa.me` enquiry button)
+- Email: ayushvaryani5@gmail.com
+- Address: C-331–336, 3rd Floor, Sumel Business Park 3, Opp. New Cloth
+  Market, Sarangpur, Ahmedabad 380002
+
+## Before going live
+
+- **Photos & logo** — add files per `assets/products/README.md`.
 
 ## Deploy free with GitHub Pages + GoDaddy domain
 
